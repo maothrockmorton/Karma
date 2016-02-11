@@ -1,7 +1,44 @@
-body {
-	background-color: LightGray;
+.page-nav {
+	width: 60%;
+	margin: 0 auto;
 }
 
-div {
-	border: 10px solid Chocolate;
+.boop {
+	float: right;
+	margin-bottom: 50px;
+	margin-top: 0px;	
+	vertical-align: middle;
 }
+
+.boop li {
+	display: inline;
+	background-color: white;
+	float: left;
+	padding: 1em;	
+}
+
+.active {
+	color:black;
+	font-weight: bold;
+}
+
+.logo {
+	width: 30.5px;
+	display: inline-block;
+	float:left;
+	vertical-align: center;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited, a:active {
+    color: gray;
+}
+
+a:hover {
+    color: black;
+}
+
