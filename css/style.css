@@ -17,11 +17,25 @@ body {
 	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
+	top: 0px;
+	padding: 10px;
+}
+
+.open {
+	margin: 0 auto;
+	width: 970px;
+}
+
+.page-nav, .logo {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	z-index: 9999;
 }
 
 .boop {
 	float: right;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 	margin-top: 0px;	
 	vertical-align: middle;
 }
@@ -99,8 +113,41 @@ button {
     text-decoration: black;
 }
 
-div {
-	display: block;
+.center {
+	width: 970px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px;
+}
+
+.center h2, h3 {
+	text-align: center;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.center h3 {
+	font-size: 26px;
+	font-weight: 400;
+}
+
+.devices {
+	display: inline-block;
+	width: 30%;
+	height: 3em;
+	text-align: center;
+	padding-bottom: 35px;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.devices img {
+	height: 127px;
+	width: 127px;
 }
 
 a:link {
