@@ -59,7 +59,7 @@ body {
 	vertical-align: center;
 }
 
-.content {
+.introduction .content {
 	background-image: url("../images/background.jpg");
 	width: 100%;
 	display: inline-block;
@@ -81,6 +81,7 @@ body {
 	margin-top: 17.5rem;
 	font-size: 3.125rem;
 	overflow: auto;
+	font-weight: 300;
 	
 }
 
@@ -88,6 +89,7 @@ body {
 	text-align: center;
 	margin-top: 1.25rem;
 	font-size: 1.532rem;
+	font-weight: 100;
 }
 
 .introduction .button {
@@ -113,14 +115,14 @@ button {
     text-decoration: black;
 }
 
-.center {
+.content {
 	width: 970px;
 	margin: 0 auto;
 	text-align: center;
 	padding: 100px;
 }
 
-.center h2, h3 {
+.content h2, h3 {
 	text-align: center;
 	padding: 10px;
 	font-family: 'Roboto', sans-serif;
@@ -128,7 +130,7 @@ button {
 	font-weight: 300;
 }
 
-.center h3 {
+.content h3 {
 	font-size: 26px;
 	font-weight: 400;
 }
@@ -148,6 +150,47 @@ button {
 .devices img {
 	height: 127px;
 	width: 127px;
+}
+
+.content h5 {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.content .icons li {
+	display:inline-block;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 50%;
+	border: 1px solid #838994;
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	padding: .5rem;
+}
+
+.icons .fa-twitter {
+	color: #55acee;
+}
+
+.icons .fa-facebook {
+	color: #4c66a4;
+}
+
+.icons .fa-instagram {
+	color: #3f729b;
+}
+
+
+.content .icons {
+	padding-left: 0;
+}
+
+
+.copy {
+	font-size: .9rem;
+	color: #838994;
+	font-weight: 300;
 }
 
 a:link {
